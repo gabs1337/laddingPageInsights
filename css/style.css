@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-body-bg);
+}
+main{
+    height: 400px;
+    width: 1000px;
+    background-color:var(--main-color-card);
+    border-radius:10px;
+    display: flex;
+}
+
+.infoCard{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 10px 50px;
+}
+
+.textoCard>h1{
+    font-family: Inter , sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    
+}
+.textoParag>p{
+    display: flex;
+    font-family: Lexend Deca, sans-serif;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+.numbersCard{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    width: 100%;
+    color: white;
+    padding-right: 50px;
+    font-family: Lexend Deca, sans-serif;
+}
+
+
+.numbersDesc{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-family: Lexand Deca , sans-serif;
+
+}
+
+.banner{
+    filter: opacity(0.4) drop-shadow(0 0 0 #9901f7); 
+    border-top-right-radius: 10px; border-bottom-right-radius: 10px;
+}
